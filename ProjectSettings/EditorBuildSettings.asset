@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/VRDevScene.unity
-    guid: f526b28a900656a4b94b1656ae03ec22
+    path: Assets/Scenes/BathroomScene.unity
+    guid: 5c7b55c65745a1d45bd69b854ab97cc6
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 554e591fb26db3546a574aa74e0b873c, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: db89b19590397fa44bc2b83b87be8a2c, type: 2}
