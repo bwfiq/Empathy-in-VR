@@ -205,8 +205,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 140174026}
   m_HandleRect: {fileID: 1963645041}
   m_Direction: 0
-  m_MinValue: -1
-  m_MaxValue: 1
+  m_MinValue: 0
+  m_MaxValue: 2
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -1571,7 +1571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6ade48669649954ca88655db097b8f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ikTargetFollowVRRig: {fileID: 6375828063412142961}
+  targetTransform: {fileID: 9014170784912083218}
   slider: {fileID: 8750605}
   valueLabel: {fileID: 1595302010}
 --- !u!4 &1365002426
@@ -1583,7 +1583,7 @@ Transform:
   m_GameObject: {fileID: 1365002424}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1025.875, y: 445.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7208,7 +7208,7 @@ MonoBehaviour:
   head:
     vrTarget: {fileID: 1846457162}
     ikTarget: {fileID: 86794695}
-    trackingPositionOffset: {x: 0, y: -0.6, z: 0}
+    trackingPositionOffset: {x: 0, y: 0, z: -0.2}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   leftHand:
     vrTarget: {fileID: 2109302573}
@@ -7220,7 +7220,7 @@ MonoBehaviour:
     ikTarget: {fileID: 1911995630}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
-  headBodyPositionOffset: {x: 0, y: 0, z: 0}
+  headBodyPositionOffset: {x: 0, y: -0.6, z: 0}
   headBodyYawOffset: 0
 --- !u!114 &6375828063412142962
 MonoBehaviour:
