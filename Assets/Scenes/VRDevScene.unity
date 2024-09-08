@@ -492,7 +492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 356227645}
   m_Layer: 5
-  m_Name: Head Position Y
+  m_Name: Slider+Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1572,7 +1572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ikTargetFollowVRRig: {fileID: 6375828063412142961}
-  headBodyPositionY: {fileID: 8750605}
+  slider: {fileID: 8750605}
   valueLabel: {fileID: 1595302010}
 --- !u!4 &1365002426
 Transform:
@@ -7208,7 +7208,7 @@ MonoBehaviour:
   head:
     vrTarget: {fileID: 1846457162}
     ikTarget: {fileID: 86794695}
-    trackingPositionOffset: {x: 0, y: 0, z: 0}
+    trackingPositionOffset: {x: 0, y: -0.6, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   leftHand:
     vrTarget: {fileID: 2109302573}
@@ -7220,7 +7220,7 @@ MonoBehaviour:
     ikTarget: {fileID: 1911995630}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
-  headBodyPositionOffset: {x: 0, y: -0.6, z: 0}
+  headBodyPositionOffset: {x: 0, y: 0, z: 0}
   headBodyYawOffset: 0
 --- !u!114 &6375828063412142962
 MonoBehaviour:
