@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/BathroomScene.unity
-    guid: f0dcf8d364a5d46448b8e93bf31b066e
   - enabled: 1
     path: Assets/Scenes/VRDevScene.unity
     guid: f526b28a900656a4b94b1656ae03ec22
