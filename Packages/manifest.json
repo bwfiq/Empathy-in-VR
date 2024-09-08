@@ -13,7 +13,7 @@
     "com.unity.xr.hands": "1.4.1",
     "com.unity.xr.interaction.toolkit": "2.5.4",
     "com.unity.xr.openxr": "1.11.0",
-    "com.unity.xr.openxr.picoxr": "file:C:/Users/rafiq/Downloads/PICO Unity OpenXR Integration SDK-1.2.1_20240905",
+    "com.unity.xr.openxr.picoxr": "file:../Assets/Packages/PICO Unity OpenXR Integration SDK",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
